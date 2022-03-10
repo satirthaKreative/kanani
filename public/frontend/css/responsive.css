@@ -1,0 +1,1030 @@
+@media (max-width:1024px) {
+    section.body-cont4 .wrap {
+        padding: 40px 0;
+    }
+    section.Choose-page3 .decp {
+        min-height: auto;
+    }
+}
+@media (max-width:991px) {
+    header .logo-sec img {
+        max-width: 100px;
+    }
+    header div#navigation ul li {
+        margin-left: 12px;
+    }
+    header div#navigation ul li a {
+        font-size: 12px;
+    }
+    section.body-cont1 .col-md-6 {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    header a.login-but {
+        font-size: 12px;
+        padding: 6px 8px;
+        margin-left: 5px;
+    }
+    section.body-cont-2 .col-lg-3 {
+        margin-bottom: 30px;
+    }
+    section.Choose-page2 {
+        text-align: center;
+    }
+    section.Choose-page2 .wrap {
+        margin-bottom: 20px;
+    }
+}
+@media (max-width:900px) {
+    .container {
+        max-width: 100%
+    }
+
+    header {
+        padding: 8px 0
+    }
+
+    header a.login-but {
+        font-size: 12px;
+        padding: 8px 12px;
+        margin-left: 0;
+        position: absolute;
+        right: 78px;
+        top: -22px;
+        z-index: 999999999;
+        display: flex;
+        align-items: center;
+    }
+    header a.login-but.logged {
+        top: 12px;
+    }
+    .slim-container a.slimNav_sk78-reveal {
+        background: #1a4568 !important;
+        border-radius: 50%;
+        right: 15px !important;
+        top: 6px !important;
+    }
+
+    .menu-sec {
+        position: unset
+    }
+
+    header div#navigation {
+        display: inline-block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 100%
+    }
+
+    .slim-container .slim-bar {
+        background: 0 0 !important
+    }
+
+    .slim-container .slim-nav {
+        background: #fff !important;
+        box-shadow: 0 0 15px;
+        overflow: hidden;
+        margin-top: 60px !important;
+    }
+
+    header div#navigation ul {
+        flex-direction: column
+    }
+
+    header div#navigation ul li {
+        margin-left: 0
+    }
+
+    header div#navigation ul li.current-menu-item:after {
+        display: none
+    }
+
+    header div#navigation ul li a {
+        font-size: 14px;
+        border-bottom: 1px solid #ddd
+    }
+
+    .logo-sec a {
+        display: table;
+        position: relative;
+        z-index: 9999999999
+    }
+
+    .logo-sec a img {
+        max-height: 45px
+    }
+    header div#navigation ul li a i.fal.fa-angle-down {
+        display: none;
+    }
+    a.slim-expand {
+        background: #1a4568 !important;
+        color: #fff !important;
+        height: 28px !important;
+        line-height: 28px !important;
+    }
+    header div#navigation ul li ul.sub-menu {
+        position: relative;
+        left: 0;
+        width: 100%;
+    }
+    header div#navigation ul li ul.sub-menu li a {
+        padding: 10px 15px;
+        border-bottom: 1px solid #c2c2c2;
+        background: #f3f3f3;
+        font-size: 13px;
+    }
+}
+
+@media (max-width:768px) {
+    section.Courses-page .row {
+        justify-content: center;
+    }
+    section.Courses-page .col-md-4 {
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+        margin-bottom: 30px;
+    }
+}
+
+
+@media (max-width:767px) {
+    .banner-sec {
+        padding: 75px 0 65px;
+    }
+    .banner-sec h6 {
+        font-size: 14px;
+        text-align: center;
+    }
+    .banner-sec h2 {
+        font-size: 20px;
+        line-height: normal;
+        text-align: center;
+    }
+    .banner-sec h2 span {
+        width: 100%;
+    }
+    .banner-sec p {
+        font-size: 14px;
+        line-height: 23px;
+        margin: 0px 0 20px;
+        text-align: center;
+    }
+    .banner-sec a {
+        font-size: 14px;
+        padding: 10px 22px;
+        margin: 0 auto 25px;
+    }
+    .banner-sec .img-wrap, section.body-cont1 .img-wrap {
+        transform: scale(0.9);
+        transform-origin: center;
+    }
+    .banner-sec .img-wrap .sec1 {
+        top: -23px;
+        right: auto;
+        left: -20px;
+    }
+    .banner-sec .img-wrap .sec2 {
+        left: auto;
+        bottom: -50px;
+        right: 0;
+    }
+    section.body-cont1 {
+        padding: 20px 0;
+        position: relative;
+    }
+    section.body-cont1 h6 {
+        text-align: center;
+        margin: 54px 0 10px;
+    }
+    
+section.body-cont1 h2 {
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: 38px;
+    text-align: center;
+}
+section.body-cont1 p {
+    margin: 0 0 10px;
+    text-align: center;
+}
+section.body-cont1 a {
+    display: table;
+    margin: 22px auto 0;
+}
+section.body-cont-2 {
+    padding: 30px 0;
+    margin: 10px 0 0;
+}
+section.body-cont-2 h2 {
+    font-size: 25px;
+    line-height: 40px;
+    margin: 0;
+}
+section.body-cont-2 .wrap {
+    margin: 20px 0 0;
+}
+section.body-cont3 {
+    padding: 30px 0 10px;
+}
+section.body-cont3 .decp ul li {
+    width: 100%;
+    padding: 15px;
+    border-bottom: 5px solid rgba(0, 0, 0, 0.2) !important;
+    border-right: none;
+    border: 1px solid rgba(0, 0, 0, 0.2) !important;
+    margin-bottom: 25px;
+    background: transparent;
+}
+section.body-cont3 .decp ul li h6 {
+    text-align: center;
+}
+section.body-cont3 .decp ul li h2 {
+    font-size: 18px;
+    letter-spacing: 0;
+    margin: 15px 0 5px;
+    text-align: center;
+}
+section.body-cont3 .decp ul li p {
+    text-align: center;
+}
+section.body-cont3 .decp ul li ul {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+section.body-cont3 .decp ul li li {
+    width: 100%;
+    padding: 0;
+    border: transparent !important;
+}
+section.body-cont3 .side-bar {
+    text-align: center;
+}
+section.body-cont3 .side-bar img{
+    display: none;
+}
+section.body-cont3 .side-bar h6 {
+    margin: 24px 0 11px;
+}
+section.body-cont3 .side-bar h2 {
+    font-size: 24px;
+    line-height: 34px;
+}
+section.body-cont3 .side-bar a {
+    font-size: 14px;
+    padding: 12px 20px;
+    margin: 10px auto 25px;
+}
+section.body-cont4 img {
+    float: unset;
+    width: 100%;
+    position: relative;
+}
+section.body-cont4 .wrap {
+    position: relative;
+    top: 0;
+    text-align: center;
+    margin: 25px 0;
+    padding: 0;
+}
+section.body-cont4 h2 {
+    font-size: 23px;
+    line-height: 42px;
+}
+section.body-cont4 p {
+    line-height: 30px;
+}
+section.body-cont4 a {
+    margin: 25px auto 0;
+}
+section.body-cont5 {
+    padding: 20px 0;
+}
+section.body-cont5 h2 {
+    font-size: 25px;
+    margin: 0 0 18px;
+}
+section.body-cont5 .students-say .item .img-wrap {
+    max-width: 250px;
+    margin:15px auto 21px;
+}
+section.body-cont5 p:before {
+    font-size: 50px;
+    left: 0;
+    top: -6px;
+    z-index: -1;
+}
+section.body-cont5 p {
+    font-size: 16px;
+    text-align: center;
+}
+section.body-cont5 h5 {
+    font-size: 17px;
+    text-align: center;
+}
+section.body-cont5 h6 {
+    font-size: 15px;
+    text-align: center;
+}
+section.body-cont5 .students-say .owl-nav {
+    text-align: center;
+    margin: 18px 0 0;
+}
+section.body-cont5 .students-say .owl-nav button.owl-prev {
+    position: relative;
+    left: 0;
+    top: 0;
+    margin: 0 15px;
+}
+section.body-cont5 .students-say .owl-nav button.owl-next {
+    position: relative;
+    right: 0;
+    top: 0;
+    margin: 0 15px;
+}
+section.body-cont6 {
+    padding: 15px 0;
+}
+section.body-cont6 .title-sec h2 {
+    font-size: 20px;
+    line-height: normal;
+    margin: 6px 0;
+}
+section.body-cont6 .title-sec p {
+    margin: 0 auto 20px;
+}
+section.body-cont6 .sec1 img {
+    border-radius: 0 20px 0 20px;
+}
+section.body-cont6 .sec1 .img-wrap {
+    margin: 0 0 25px;
+}
+
+section.body-cont6 .sec1 .decp {
+    padding: 15px;
+    border-radius: 0 20px 0 0;
+}
+section.body-cont6 .sec2 img {
+    margin: 0 0 0;
+}
+section.body-cont6 .sec2 h4 {
+    margin-top: 10px;
+}
+section.body-cont6 .sec2 h5 {
+    margin: 8px 0 25px;
+}
+
+footer {
+    padding: 17px 0 0;
+}
+footer h2 {
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+footer ul.con {
+    padding: 14px 0 30px;
+}
+footer h3 {
+    font-size: 16px;
+    margin: 0 0 8px;
+}
+footer ul.mennu {
+    margin: 0 0 25px;
+}
+footer h6 {
+    font-size: 14px;
+    margin: 12px 0;
+    text-align: center;
+}
+footer h5 {
+    font-size: 13px;
+    text-align: center;
+    margin: 0 0 15px;
+}
+footer h5 a:last-child {
+    padding-right: 15px;
+}
+.inner-ban {
+    padding: 66px 0 42px;
+    min-height: 213px;
+    background-image: linear-gradient( 
+        90deg, #e0ecf8 0%, #fefefe 100%) !important;
+}
+.inner-ban h2 {
+    font-size: 20px;
+}
+.inner-ban h2:before {
+    font-size: 30px;
+}
+.inner-ban ul {
+    display: table;
+    background-image: none;
+}
+.inner-ban ul li {
+    margin-left: 0;
+    margin-right: 11px;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+.inner-ban ul li a {
+    padding-right: 10px;
+}
+section.Choose-page:after{
+    display: none;
+}
+section.Choose-page {
+    padding: 15px 0 0;
+}
+section.Choose-page h2 {
+    font-size: 25px;
+    line-height: 31px;
+}
+section.Choose-page p {
+    font-size: 14px;
+    line-height: 29px;
+    text-align: justify;
+}
+section.Choose-page .wrap {
+    max-width: 250px;
+    margin: 0 auto;
+}
+section.Choose-page2 {
+    padding: 20px 0;
+}
+section.Choose-page2 .wrap {
+    max-width: 320px;
+    margin: 0 auto 25px;
+}
+section.Choose-page2 h2 {
+    font-size: 22px;
+    line-height: 20px;
+    margin: 0 0 12px;
+    text-align: center;
+}
+section.Choose-page2 p {
+    text-align: center;
+}
+section.Choose-page3 {
+    padding: 15px 0;
+}
+section.Choose-page3 .decp {
+    min-height: auto;
+    margin-bottom: 15px;
+}
+section.Choose-page3 h2 {
+    font-size: 20px;
+}
+section.Choose-page3 p {
+    line-height: 26px;
+    margin: 0 auto 21px;
+}
+section.Courses-page {
+    padding: 12px 0 25px;
+}
+section.Courses-page img.img1, section.Courses-page img.img2, section.Courses-page img.img3 {
+    display: none;
+}
+section.Courses-page .title-sec h2 {
+    font-size: 23px;
+    line-height: 34px;
+}
+section.Courses-page .wrap {
+    /*text-align: center;*/
+    height: auto;
+}
+section.Courses-page .col-md-4 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-bottom: 0;
+}
+section.Courses-page .wrap h2 {
+    font-size: 20px;
+}
+
+section.Adults-page {
+    padding: 15px 0;
+}
+section.Adults-page .decp .sec1 h6 {
+    margin: 0 0 15px;
+    text-align: center;
+}
+section.Adults-page .decp .sec1 h3 {
+    font-size: 18px;
+    text-align: center;
+}
+section.Adults-page .decp .sec1 p {
+    line-height: 27px;
+    text-align: justify;
+}
+section.Adults-page .decp .sec1 .improved-sec img{
+    max-width: 100%;
+    margin: 0 auto 13px;
+    display: table;
+}
+section.Adults-page .decp .sec3 {
+    margin: 20px 0 20px;
+    text-align: center;
+}
+section.Adults-page .decp .sec3 a.more-but {
+    font-size: 14px;
+    padding: 11px 28px;
+    float: none;
+    margin: 25px auto 0;
+}
+section.Adults-page .decp .sec1 img {
+    margin: 0 auto;
+    display: table;
+}
+section.Adults-page .decp .sec2 .accordion-toggle {
+    flex-wrap: wrap;
+    padding: 10px;
+    padding-left: 28px;
+}
+section.Adults-page .decp .sec2 .accordion-toggle span {
+    margin-left: 0;
+    word-break: break-word;
+    font-size: 12px;
+}
+section.Adults-page .decp .sec2 .accordion-toggle:before {
+    left: 10px;
+}
+section.Adults-page .decp .sec2 .accordion-toggle.active:after {
+    left: 10px;
+}
+section.Adults-page .decp .sec2 .accordion-content {
+    padding: 15px;
+}
+section.Adults-page .decp .sec2 .accordion-content p {
+    font-size: 13px;
+    line-height: 26px;
+}
+section.Adults-page img.img1 {
+    max-width: 120px;
+}
+section.contact-page .decp {
+    justify-content: center;
+    padding: 23px;
+    text-align: center;
+}
+section.contact-page h2 {
+    font-size: 23px;
+    line-height: 40px;
+}
+
+section.contact-page form {
+    padding: 15px;
+}
+section.contact-page .sec {
+    margin: 0 -15px;
+}
+section.contact-page p {
+    font-size: 14px;
+    line-height: 26px;
+    text-align: center;
+}
+section.contact-page input:not([type="submit"]), section.contact-page textarea {
+    padding: 13px;
+    margin: 0 0 10px;
+}
+section.contact-page img.img1{
+    display: none;
+}
+section.contact-page input[type="submit"] {
+    font-size: 17px;
+    padding: 10px 43px;
+    display: table;
+    margin: 0 auto;
+}
+section.contact-page {
+    padding-bottom: 82px;
+}
+section.login-page .sec {
+    margin: 0 -15px;
+}
+section.login-page .decp h2 {
+    font-size: 25px;
+    line-height: 28px;
+}
+section.login-page form {
+    padding: 15px;
+}
+section.login-page h5 {
+    font-size: 15px;
+    text-align: center;
+    margin: 0 0 20px;
+}
+section.login-page h3 {
+    font-size: 21px;
+    margin: 0 0 14px;
+    text-align: center;
+}
+section.login-page a.fg-pass, section.login-page h6 {
+    font-size: 13px;
+    margin: 0;
+}
+section.login-page h6 input[type=checkbox]{
+    box-sizing: border-box;
+    padding: 0;
+    float: left;
+    margin-top: 2px;
+    margin-right: 8px;
+}
+section.login-page input[type="submit"] {
+    font-size: 14px;
+    padding: 10px 43px;
+    margin: 30px auto 9px;
+    display: table;
+}
+section.login-page img.img1{
+    display: none;
+}
+section.login-page {
+    padding-bottom: 60px;
+}
+section.register-page h2 {
+    font-size: 20px;
+    margin: 0 0 19px;
+}
+section.register-page .decp {
+    margin: 0 0 25px;
+}
+section.register-page img.img1{
+    display: none;
+}
+section.register-page {
+    padding-bottom: 52px;
+}
+section.register-page1 .sec {
+    padding: 15px;
+}
+section.register-page1 h2 {
+    font-size: 18px;
+    text-align: center;
+}
+section.register-page1 h6 {
+    text-align: center;
+}
+section.register-page1 h4 {
+    font-size: 15px;
+    margin: 16px 0 14px;
+    padding: 0 0 9px;
+}
+section.register-page1 input:not([type="submit"]):not([type="checkbox"]), section.register-page1 select {
+    width: 100%;
+    border: 1px solid #8f8f8f;
+    background-color: #ffffff;
+    padding: 12px;
+    margin: 0 0 12px;
+}
+section.register-page1 input[type="submit"] {
+    font-size: 14px;
+    padding: 12px 25px;
+    float: unset;
+    display: table;
+    margin: 25px auto 15px;
+}
+section.register-page1 img.img1{
+    display: none;
+}
+section.register-page1 {
+    padding-bottom: 79px;
+}
+section.blog-page {
+    padding: 15px 0;
+}
+section.blog-page .decp .img-wrap {
+    position: relative;
+    margin: 0 0 12px;
+    text-align: center;
+}
+section.blog-page .decp h2 {
+    font-size: 17px;
+    line-height: 29px;
+    text-align: center;
+}
+section.blog-page .decp p {
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 25px;
+    text-align: center;
+}
+section.blog-page .decp a.more-but {
+    display: table;
+    margin: 0 auto 25px;
+}
+section.blog-page .blog-details-decp h2 {
+    font-size: 19px;
+    letter-spacing: 0;
+    line-height: 30px;
+    text-align: center;
+}
+section.blog-page .blog-details-decp p {
+    text-align: justify;
+}
+section.blog-page .blog-details-decp h4 {
+    text-align: center;
+}
+section.blog-page .blog-details-decp .sec1 {
+    flex-direction: column;
+    padding: 15px 0;
+    text-align: center;
+}
+section.blog-page .blog-details-decp .sec1 h6 {
+    margin: 15px;
+    font-size: 15px;
+    letter-spacing: 0;
+    line-height: 28px;
+}
+section.blog-page .blog-details-decp .comment-sec input[type="submit"] {
+    margin: 25px auto 25px;
+    display: table;
+}
+}
+
+@media (min-width:768px) and (max-width:1023px) {
+    .banner-sec h2 {
+        font-size: 26px;
+        line-height: 38px;
+    }
+    .banner-sec {
+        padding: 99px 0 101px;
+    }
+    .banner-sec .img-wrap, section.body-cont1 .img-wrap {
+        transform: scale(0.9);
+    }
+    section.body-cont1 {
+        padding: 25px 0;
+        position: relative;
+    }
+    section.body-cont1 h2 {
+        font-size: 28px;
+    }
+    section.body-cont-2 {
+        padding: 30px 0;
+        margin: 15px 0 0;
+    }
+    section.body-cont-2 .wrap {
+        margin: 0 0 30px;
+    }
+    section.body-cont3 .side-bar img {
+        display: none;
+    }
+    section.body-cont3 {
+        padding: 25px 0;
+    }
+    section.body-cont4 h2 {
+        font-size: 21px;
+        line-height: 43px;
+    }
+    section.body-cont4 .wrap .col-lg-6 {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    section.body-cont4 img {
+        float: none;
+        width: 100%;
+        object-fit: cover;
+        position: relative;
+    }
+    section.body-cont4 p {
+        font-size: 14px;
+        line-height: 28px;
+    }
+    section.body-cont5 .students-say .owl-nav {
+        text-align: center;
+        margin: 18px 0 0;
+    }
+    section.body-cont5 .students-say .owl-nav button.owl-prev {
+        position: relative;
+        left: 0;
+        top: 0;
+        margin: 0 15px;
+    }
+    section.body-cont5 .students-say .owl-nav button.owl-next {
+        position: relative;
+        right: 0;
+        top: 0;
+        margin: 0 15px;
+    }
+    section.body-cont6 {
+        padding: 0 0 25px;
+    }
+    section.body-cont6 .sec2 img {
+        margin: 0 0 0;
+    }
+    section.body-cont6 .sec2 h5 {
+        margin: 8px 0 16px;
+    }
+    footer {
+        padding: 30px 0 0;
+    }
+    footer ul.con {
+        padding: 17px 0 30px;
+    }
+    .inner-ban h2:before {
+        font-size: 58px;
+    }
+    .inner-ban {
+        padding: 109px 0 65px;
+        min-height: 257px;
+        background-image: linear-gradient( 
+90deg, #e0ecf8 0%, #fefefe 100%) !important;
+    }
+    section.Choose-page h2 {
+        font-size: 28px;
+        line-height: 30px;
+    }
+    section.Choose-page p {
+        font-size: 14px;
+        line-height: 29px;
+    }
+    section.Choose-page3 .decp {
+        padding: 10px;
+    }
+    section.Choose-page3 h3 {
+        font-size: 13px;
+        margin: 0 0 15px;
+        min-height: 28px;
+    }
+    section.Choose-page3 ul li {
+        font-size: 13px;
+        letter-spacing: 0;
+        line-height: 25px;
+    }
+    section.Choose-page3 {
+        padding: 25px 0;
+    }
+    section.Choose-page3 .wrap {
+        height: 100%;
+        background-color: #1a4567;
+    }
+    section.Courses-page {
+        padding: 22px 0 51px;
+    }
+    section.Courses-page .wrap h2 {
+        font-size: 17px;
+    }
+    section.Courses-page .wrap h4 {
+        font-size: 15px;
+    }
+    .inner-ban h2 {
+        font-size: 25px;
+    }
+    section.contact-page p {
+        font-size: 13px;
+        line-height: 19px;
+    }
+    section.contact-page form {
+        padding: 25px 9px;
+    }
+    section.contact-page input:not([type="submit"]), section.contact-page textarea {
+        padding: 11px;
+        margin: 0 0 13px;
+    }
+    section.contact-page textarea {
+        height: 72px;
+    }
+    section.contact-page .decp {
+        padding: 16px;
+    }
+    section.contact-page img.img1 {
+        width: 33%;
+    }
+    section.contact-page img.img2 {
+        width: 61%;
+    }
+    section.login-page .decp h2 {
+        font-size: 26px;
+        line-height: 50px;
+    }
+    
+    section.login-page form {
+        padding: 15px;
+    }
+    section.login-page h3 {
+        color: #000000;
+        font-size: 26px;
+        font-weight: 600;
+        margin: 0 0 18px;
+    }
+    section.register-page .decp img {
+        width: 75px;
+        height: 75px;
+        padding: 17px;
+    }
+    section.register-page .decp {
+        border-radius: 10px;
+        padding: 23px 10px 20px;
+        text-align: center;
+    }
+    section.register-page .decp p {
+        font-size: 12px;
+        line-height: 26px;
+        min-height: 48px;
+        margin: 0;
+    }
+    section.register-page .decp a {
+        font-size: 12px;
+        padding: 11px 0;
+        border-radius: 5px;
+        margin: 25px 0 0;
+    }
+    section.register-page img.img2 {
+        position: absolute;
+        bottom: -13px;
+        left: 0;
+        width: 45%;
+    }
+    section.register-page img.img1 {
+        position: absolute;
+        bottom: 0;
+        right: -65px;
+        width: 34%;
+    }
+    section.register-page1 img.img2 {
+        width: 49%;
+    }
+    section.register-page1 img.img1 {
+        width: 37%;
+    }
+    section.blog-page .decp .img-wrap img{
+        width: 100%;
+    }
+    section.blog-page .decp .img-wrap {
+        position: relative;
+        margin: 0 0 14px;
+    }
+    section.blog-page .decp a.more-but {
+        display: table;
+        margin: 0 0 34px;
+    }
+    section.blog-page .blog-details-decp .sec1 img {
+        margin-bottom: 0;
+        max-width: 168px;
+    }
+    section.blog-page .blog-details-decp .sec1 h6 {
+        font-size: 14px;
+        letter-spacing: 0;
+        line-height: 22px;
+    }
+}
+
+@media (min-width:1024px) and (max-width:1279px) {
+    header div#navigation ul li {
+        margin-left: 29px;
+    }
+    .banner-sec h2 {
+        font-size: 36px;
+        line-height: 55px;
+    }
+    section.body-cont-2 .wrap {
+    padding: 35px 10px;
+}
+section.body-cont-2 h4 {
+    font-size: 16px;
+}
+section.body-cont-2 p {
+    font-size: 14px;
+    line-height: 24px;
+}
+section.body-cont3 .decp ul li h2 {
+    font-size: 20px;
+}
+section.body-cont4 img {
+    float: right;
+    width: 50%;
+    min-height: 458px;
+    object-fit: cover;
+}
+section.body-cont5 .students-say .owl-nav button.owl-next {
+    right: -60px;
+}
+section.body-cont5 .students-say .owl-nav button.owl-prev{
+    left: -60px; 
+}
+footer ul.social a i.fab {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    margin-right: 10px;
+}
+.inner-ban h2:before {
+    font-size: 64px;
+}
+section.Choose-page3 h3 {
+    font-size: 13px;
+    margin: 0 0 15px;
+    min-height: 28px;
+}
+section.contact-page input:not([type="submit"]), section.contact-page textarea {
+    margin: 0 0 17px;
+}
+
+section.contact-page .decp {
+    padding: 30px;
+}
+}

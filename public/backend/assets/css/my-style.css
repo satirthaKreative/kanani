@@ -1,0 +1,85 @@
+table#datatable {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #dddddd;
+}
+
+#datatable thead th {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000;
+    padding: 15px 10px;
+    border-top: transparent;
+    border-bottom: transparent;
+}
+
+#datatable tbody td {
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.04em;
+    color: #555555;
+    padding: 8px 10px;
+    border-bottom: transparent;
+}
+#datatable tbody td a.btn {
+    background: #1a4568;
+    border-color: #1a4568;
+    border-radius: 0;
+}
+
+div.dataTables_wrapper div.dataTables_info {
+color: #222;
+}
+
+div.dataTables_wrapper div.dataTables_paginate .page-item.active .page-link {
+    background-color: #1a4568;
+    border-color: #1a4568;
+}
+
+
+.dataTables_length label, div.dataTables_wrapper div.dataTables_filter label {
+    font-size: 15px;
+    color: #000;
+}
+.dataTables_length label select.custom-select {
+    width: 80% !important;
+    border: 1px solid #555;
+    border-radius: 0;
+    margin: 0 5px;
+}
+
+div.dataTables_wrapper div.dataTables_filter input {
+    border: 1px solid #555;
+    border-radius: 0;
+}
+
+
+#datatable tbody td.cnt a.btn {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#datatable tbody td.cnt .notiofication-area {
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    margin-left: 15px;
+    background: #ffffff;
+    border: 1px solid #73A9DB;
+    padding: 6px 10px;
+}
+#datatable tbody td.cnt .notiofication-area .fas {
+    display: inline-block;
+    vertical-align: middle;
+    color: #1a4568;
+}
+#datatable tbody td.cnt .notiofication-area h4 {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 11px;
+    line-height: normal;
+    margin: 0;
+    color: #1a4568;
+    text-transform: uppercase;
+}

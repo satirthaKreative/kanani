@@ -1,0 +1,336 @@
+@media (max-width:1024px) {
+    .message-page .sec3 a {
+        padding: 10px 5px;
+        margin: 10px 0;
+    }
+    .message-page .sec3 {
+        border: 1px solid #CECECE;
+        padding: 15px;
+    }
+    .booking-page form .col-lg-8, .booking-page form .col-lg-4 {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .booking-page .coursetype {
+        margin-bottom: 15px;
+    }
+}
+
+@media (max-width:991px) {
+    .side-bar {
+        position: fixed;
+        top: 0;
+        right: 0;
+        margin: auto;
+        max-width: 350px;
+        overflow: hidden;
+        -webkit-transform: translateX(110%);
+        transform: translateX(110%);
+        -webkit-transition: all 0.5s ease-in-out;
+        transition: all 0.5s ease-in-out;
+        width: 100%;
+        z-index: 999;
+        bottom: 0;
+        background: #010c1e;
+    }
+    .side-bar.open {
+        -webkit-transform: translateX(0px);
+        transform: translateX(0px);
+    }
+    header a.nav-line {
+        position: absolute;
+        top: 20px;
+        left: 25px;
+        width: 47px;
+        height: 40px;
+        border: 2px solid #1a4568;
+        display: inline-block;
+        vertical-align: middle;
+        background: transparent;
+        border-radius: 6px;
+        z-index: 99;
+    }
+    header a.nav-line span {
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        left: 0px;
+        position: absolute;
+        width: 30px;
+        height: 2px;
+        background: #1a4568;
+        border-radius: 4px;
+        -webkit-transition: all 0.3s;
+        transition: all 0.3s;
+        right: 0;
+    }
+
+    header a.nav-line span::after, header a.nav-line span::before {
+        position: absolute;
+        width: 30px;
+        height: 2px;
+        background: #1a4568;
+        border-radius: 4px;
+        -webkit-transition: all 0.3s;
+        transition: all 0.3s;
+        content: "";
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+
+    header a.nav-line span::after {
+        bottom: 8px;
+    }
+    header form {
+        padding-left: 60px;
+    }
+    header a.nav-line span::before {
+        top: 8px;
+    }
+    header .col-lg-6 {
+        width: 50%;
+    }
+    header ul.user-login li a i.fal.fa-angle-down {
+        margin-left: 15px;
+    }
+
+    .side-bar button.close {
+        padding: 0;
+        background-color: transparent;
+        border: 0;
+        width: 30px;
+        height: 33px;
+        position: absolute;
+        right: 15px;
+        top: 15px;
+        opacity: 0.9;
+        display: block;
+    }
+    .side-bar button.close::before {
+        position: absolute;
+        left: 15px;
+        content: ' ';
+        height: 33px;
+        width: 3px;
+        background-color: #fff;
+        transform: rotate(-45deg);
+        top: 0;
+    }
+    .side-bar button.close::after {
+        position: absolute;
+        left: 15px;
+        content: ' ';
+        height: 33px;
+        width: 3px;
+        background-color: #fff;
+        transform: rotate(45deg);
+        top: 0;
+    }
+    .side-bar a.logo {
+        margin: 0;
+        padding: 15px;
+    }
+    .table-responsive {
+        padding-bottom: 5px;
+    }
+}
+
+@media (max-width:900px) {
+    .container {
+        max-width: 100%
+    }
+
+    
+}
+
+@media (max-width:768px) {
+    header {
+        padding: 8px 15px;
+    }
+    header a.nav-line {
+        top: 10px;
+    }
+    header form {
+        padding-left: 65px;
+    }
+    .main-cont .teacher-massege .pto {
+        margin-right: 6px;
+    }
+    .main-cont .teacher-massege .pto span {
+        font-size: 13px;
+        margin: 0 5px;
+    }
+    .main-cont .teacher-massege .ms-tbox ul li:first-child {
+        margin-right: 5px;
+    }
+    .main-cont .teacher-massege .ms-tbox ul li a {
+        padding: 2px 10px !important;
+        font-size: 13px;
+        width: auto;
+    }
+    .main-cont .teacher-massege table tbody td.tm, .main-cont .teacher-massege table tbody tr:last-child td.txt:first-child {
+        white-space: nowrap;
+    }
+    .course-page .sec1 .wrap {
+        margin-bottom: 15px;
+    }
+}
+
+@media (max-width:767px) {
+    header a.nav-line {
+        left: 15px;
+    }
+    header .col-lg-6:nth-child(2) {
+        width: 100%;
+        order: 3;
+    }
+    header ul.user-login li a img {
+        margin-right: 15px;
+    }
+    header form {
+        padding-left: 0;
+        margin-top: 10px;
+    }
+    header .col-lg-6:last-child {
+        width: 100%;
+    }
+    .course-page .tutor-compose-class, .course-page .sent-listed {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin-bottom: 15px;
+    }
+    .main-cont .teacher-massege h2 {
+        font-size: 18px;
+    }
+    .tutor-compose-class > a {
+        margin-left: auto !important;
+    }
+    .main-cont .teacher-massege .pto {
+        margin-right: auto;
+    }
+    .side-bar {
+        max-width: 100%;
+    }
+    .course-page .sec1 {
+        text-align: center;
+    }
+    .course-page .sec1 .wrap .box {
+        max-width: 85px;
+        margin: 10px auto 0;
+    }
+    .course-page .sec1 .wrap h4 {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .course-page .sec1 .wrap p {
+        font-size: 14px;
+        margin: 8px 0 0;
+    }
+    .course-page .sec1 .wrap .box span {
+        font-size: 16px;
+    }
+    .course-page .sec1 .wrap .col-lg-7, .course-page .sec1 .wrap .col-lg-5 {
+        padding: 0 15px;
+    }
+    .course-page .sec1 .wrap {
+        margin-bottom: 15px;
+    }
+
+    .my-account-page {
+        padding: 45px 15px;
+    }
+    .my-account-page input:not([type="submit"]), .my-account-page select {
+        padding: 12px;
+        margin: 0 0 15px;
+        font-size: 15px;
+    }
+    .my-account-page input[type="submit"] {
+        padding: 10px 28px;
+    }
+
+    .my-account-page .nav-tabs {
+        height: auto;
+    }
+    .my-account-page .nav-tabs li {
+        width: 100%;
+    }
+    .my-account-page .nav-tabs li a.nav-link {
+        padding: 15px;
+    }
+    .my-account-page .nav-tabs li a.nav-link.active {
+        border-bottom: transparent;
+        background: #1a4568;
+        color: #fff;
+    }
+
+    .course-page .sec2 table#message-table th {
+        white-space: nowrap;
+    }
+    .course-page {
+        padding: 45px 15px;
+    }
+    .message-page .sec3 {
+        padding: 15px;
+        margin-top: 25px;
+    }
+    .message-page .sec3 a {
+        padding: 15px 10px;
+        margin: 15px 0;
+    }
+
+    .booking-page .coursetype {
+        margin-bottom: 25px;
+    }
+    .my-account-page textarea {
+        height: 90px;
+        margin: 0 0 15px;
+    }
+    .my-account-page .cardbtn {
+        margin: 10px 0;
+    }
+}
+
+@media (min-width:992px) and (max-width:1279px) {
+    .course-page .sec1 .wrap {
+        padding: 10px;
+    }
+    .course-page .sec1 .wrap .row {
+        height: 165px;
+    }
+    .course-page .sec1 .wrap .col-lg-7, .course-page .sec1 .wrap .col-lg-5 {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+        text-align: center;
+        padding: 0 15px;
+    }
+    .course-page .sec1 .wrap .col-lg-7 {
+        margin-bottom: auto;
+    }
+    .course-page .sec1 .wrap .col-lg-5 {
+        margin-top: auto;
+    }
+    .course-page .sec1 .wrap .box {
+        width: 70px;
+        height: 70px;
+        margin: auto;
+    }
+    .course-page .sec1 .wrap canvas {
+        width: 70px !important;
+        height: 70px !important;
+    }
+    .course-page .sec1 .wrap h4 {
+        font-size: 16px;
+        line-height: 22px;
+    }
+}
+
+@media (min-width:1280px) and (max-width:1300px) {
+    .course-page .sec1 .wrap .col-lg-5 {
+        padding: 0;
+    }
+    
+}
